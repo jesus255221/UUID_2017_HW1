@@ -7,6 +7,7 @@
         body{
             background-color: lightgray;
             margin: 0;
+            min-width: 960px;
         }
         .box{
             float:left;
@@ -25,6 +26,7 @@
             top: 0;
             left: 0;
             min-width: 960px;
+            min-height: 524px;
         }
         #intro{
         padding-top: 5.5cm;
@@ -43,18 +45,27 @@
             position: absolute;
             z-index: 1;
             top: 0px;
-            border-style: solid;
-            border-width: 5px;
+            /*border-style: solid;*/
+            /*border-width: 5px;*/
             width: 95%;
             font-family: 'Quicksand', sans-serif;
         }
+        #logo{
+          position: absolute;
+          margin-top: 20px;
+          margin-left: 30px;
+        }
         #Apple_icon{
+          position: absolute;
           width: 25px;
-          margin-left: 20px;
+          margin-left: 35%;
+          margin-top: 27.5px;
         }
         #Playstore_icon{
+          position: absolute;
           width: 25px;
-          margin-left: 25%;
+          margin-left: 30%;
+          margin-top: 30px;
         }
         #Login{
           color: #ffffff;
@@ -80,17 +91,38 @@
         #search{
           border-radius:35px;
           padding: 5px;
-          border-style: solid;
-          border-width: 5px;
+          /*border-style: solid;
+          border-width: 5px;*/
           /*width: 1000px;*/
+          width: 50%;
           margin-top: 70px;
-          background-color: #ffffff;
+          margin-left: 23%;
           text-align: center;
+          overflow: hidden;
+        }
+        #search img{
+          position: absolute;
+          left:20%;
+          height: 50px;
+          z-index: 2;
+        }
+        .Page_2{
+          background-color: #ffffff;
+          height: 100px;
+          vertical-align: bottom;
+          display: table-cell;
+        }
+        .Page_2 img{
+          position: relative;
+          bottom: 0;
+          margin: 40px;
+          /*float: left;*/
+          height: 50%;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="Page_1">
         <img src="Kr4xXkU.jpg" id="old_man">
             <div class="icons">
                 <img src="logo.png" id="logo" >
@@ -102,18 +134,23 @@
                 <h2 id="Login">Login</h2>
             </div>
         <div class="box">
-            <div class="box_content">
+            <div class="box_contenyt">
                 <h1 id="intro">Tip for your<br>
                     favorite<br>
                     <u>Street Artist<br></u>
                     with<br>
                     <u>Paypal.<br></u>
                 </h1>
-                <span id="search">
-                  search
-                </span>
+                <div id="search">
+                  <img src="textbox.png">
+                </div>
             </div>
         </div>
+    </div>
+    <div class="Page_2">
+      <img src="Visa.png">
+      <img src="PayPal.png">
+      <img src="skillshare.png">
     </div>
     <!-- <img src="ngpTSOd.jpg" id="123" width="100%"> -->
 </body>
@@ -122,6 +159,8 @@
     var BoxHeight = $("#old_man").height();
     $("div.box").height(BoxHeight);
      $("h1").css("background-color", "#231f20");
+    //  var SearchWidth = $("#search").width();
+    //  $("#search img").height(SearchWidth);
    });
 
 

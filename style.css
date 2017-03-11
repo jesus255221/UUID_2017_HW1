@@ -13,6 +13,11 @@
         background-color: #231f20;
         text-align: center;
         width:40%;
+        -webkit-transition: width 1s;
+        transition: width 1s;
+    }
+    div.box:hover {
+        width: 50%;
     }
     #old_man{
         width: 100%;
@@ -34,6 +39,7 @@
     color: #ffffff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 0 1px 2px var(--shadow);
+    letter-spacing: 4px;
     }
     div.icons{
         position: absolute;
@@ -67,6 +73,7 @@
       margin-top: 30px;
       font-weight: bold;
       padding: 10px;
+      letter-spacing: 4px;
     }
     #Signup{
       color: #ffffff;
@@ -78,6 +85,7 @@
       padding: 10px;
       opacity: 0.9;
       background-color: #231f20;
+      letter-spacing: 4px;
     }
     #logo{
       width: 70px;
@@ -103,18 +111,47 @@
     .Page_2{
       position: absolute;
       background-color: #ffffff;
-      height: 20%;
+      height: 15%;
       width: 100%;
       vertical-align: bottom;
       display: table-cell;
       /*border-style: dotted;*/
+      /*border-color: black;*/
 
     }
     .Page_2 img{
       position: relative;
       /*bottom: 0;*/
-      margin-left: 5%;
+      margin-left: 7%;
       margin-top: 3%;
       float: left;
-      height: 35%;
+      height: 40%;
+    }
+    .Page_3{
+      position: absolute;
+      border-style: dotted;
+      vertical-align: bottom;
+      border-color: #66CCFF;
+      width: 100%;
+    }
+    .Page_3 img{
+      /*position: relative;*/
+    }
+    .Page_3 h2{
+      text-align: center;
+      padding: 50px;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 50.5px;
+      letter-spacing: 4px;
+    }
+    .processImg img{
+      position: relative;
+      border-style: dotted;
+      float: left;
+      /*vertical-align: bottom;*/
+      border-color: #66CCFF;
+      width: 60px;
+    }
+    .processImg{
+      border-style: dotted;
     }

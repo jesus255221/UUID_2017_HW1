@@ -37,15 +37,29 @@
       <img src="skillshare.png">
       <img src="wired.png">
     </div>
+    <div class="Page_3">
+      <!-- <img src="ngpTSOd.jpg"> -->
+      <h2>
+        How it works
+      </h2>
+      <div class="processImg">
+        <img src="find.png">
+        <img src="card.png">
+        <img src="wallet.png">
+        <img src="security.png">
+      </div>
+    </div>
     <!-- <img src="ngpTSOd.jpg" id="123" width="100%"> -->
 </body>
 <script>
     $(document).ready(function(){
     var BoxHeight = $("#old_man").height();
     $("div.box").height(BoxHeight);
-     $("h1").css("background-color", "#231f20");
-    //  var SearchWidth = $("#search").width();
-    //  $("#search img").height(SearchWidth);
+    $("div.Page_3").height(BoxHeight);
+    $("h1").css("background-color", "#231f20");
+    BoxHeight = $("div.Page_2").height();
+    $("div.Page_3").css('margin-top',BoxHeight+'px');
+
    });
 
 

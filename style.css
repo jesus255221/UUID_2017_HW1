@@ -222,5 +222,22 @@
 
     .Process_content_3 {
         float: left;
-        margin-left: 19%;
+        margin-left: 7%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.24;
+    }
+
+    .Process_content_4 {
+        float: left;
+        margin-left: 7%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.24;
     }

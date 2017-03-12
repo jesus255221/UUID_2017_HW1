@@ -1,10 +1,11 @@
-    body{
+    body {
         background-color: lightgray;
         margin: 0;
         min-width: 960px;
     }
-    .box{
-        float:left;
+
+    .box {
+        float: left;
         position: absolute;
         margin: 0;
         top: 0;
@@ -12,14 +13,16 @@
         opacity: 0.9;
         background-color: #231f20;
         text-align: center;
-        width:40%;
+        width: 40%;
         -webkit-transition: width 1s;
         transition: width 1s;
     }
+
     div.box:hover {
         width: 50%;
     }
-    #old_man{
+
+    #old_man {
         width: 100%;
         margin: 0;
         top: 0;
@@ -27,21 +30,23 @@
         min-width: 960px;
         min-height: 524px;
     }
-    #intro{
-    padding-top: 5.5cm;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 50.5px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.24;
-    letter-spacing: -0.3px;
-    color: #ffffff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    text-shadow: 0 1px 2px var(--shadow);
-    letter-spacing: 4px;
+
+    #intro {
+        padding-top: 5.5cm;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 50.5px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.24;
+        letter-spacing: -0.3px;
+        color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 0 1px 2px var(--shadow);
+        letter-spacing: 4px;
     }
-    div.icons{
+
+    div.icons {
         position: absolute;
         z-index: 1;
         top: 0px;
@@ -50,137 +55,172 @@
         width: 95%;
         font-family: 'Quicksand', sans-serif;
     }
-    #logo{
-      position: absolute;
-      margin-top: 20px;
-      margin-left: 30px;
-    }
-    #Apple_icon{
-      position: absolute;
-      width: 25px;
-      margin-left: 35%;
-      margin-top: 27.5px;
-    }
-    #Playstore_icon{
-      position: absolute;
-      width: 25px;
-      margin-left: 30%;
-      margin-top: 30px;
-    }
-    #Login{
-      color: #ffffff;
-      float:right;
-      margin-top: 30px;
-      font-weight: bold;
-      padding: 10px;
-      letter-spacing: 4px;
-    }
-    #Signup{
-      color: #ffffff;
-      float:right;
-      margin-top: 30px;
-      margin-left: 30px;
-      font-weight: bold;
-      border-radius:20px;
-      padding: 10px;
-      opacity: 0.9;
-      background-color: #231f20;
-      letter-spacing: 4px;
-    }
-    #logo{
-      width: 70px;
-    }
-    #search{
-      border-radius:35px;
-      padding: 10px;
-      /*border-style: solid;
-      border-width: 5px;*/
-      /*width: 1000px;*/
-      width: 50%;
-      margin-top: 10%;
-      margin-left: 23%;
-      text-align: center;
-      overflow: hidden;
-    }
-    #search img{
-      position: absolute;
-      left:20%;
-      height: 50px;
-      z-index: 2;
-    }
-    .Page_2{
-      position: absolute;
-      background-color: #ffffff;
-      height: 15%;
-      width: 100%;
-      vertical-align: bottom;
-      display: table-cell;
-      /*border-style: dotted;*/
-      /*border-color: black;*/
 
+    #logo {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 30px;
     }
-    .Page_2 img{
-      position: relative;
-      /*bottom: 0;*/
-      margin-left: 7%;
-      margin-top: 3%;
-      float: left;
-      height: 40%;
+
+    #Apple_icon {
+        position: absolute;
+        width: 25px;
+        margin-left: 35%;
+        margin-top: 27.5px;
     }
-    .Page_3{
-      position: absolute;
-      /*border-style: dotted;*/
-      vertical-align: bottom;
-      /*border-color: #66CCFF;*/
-      width: 100%;
+
+    #Playstore_icon {
+        position: absolute;
+        width: 25px;
+        margin-left: 30%;
+        margin-top: 30px;
     }
-    .Page_3 h2{
-      text-align: center;
-      padding: 50px;
-      font-family: 'Quicksand', sans-serif;
-      font-size: 50.5px;
-      letter-spacing: 4px;
+
+    #Login {
+        color: #ffffff;
+        float: right;
+        margin-top: 30px;
+        font-weight: bold;
+        padding: 10px;
+        letter-spacing: 4px;
     }
+
+    #Signup {
+        color: #ffffff;
+        float: right;
+        margin-top: 30px;
+        margin-left: 30px;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 10px;
+        opacity: 0.9;
+        background-color: #231f20;
+        letter-spacing: 4px;
+    }
+
+    #logo {
+        width: 70px;
+    }
+
+    #search {
+        border-radius: 35px;
+        padding: 10px;
+        /*border-style: solid;
+      border-width: 5px;*/
+        /*width: 1000px;*/
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 23%;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #search img {
+        position: absolute;
+        left: 20%;
+        height: 50px;
+        z-index: 2;
+    }
+
+    .Page_2 {
+        position: absolute;
+        background-color: #ffffff;
+        height: 15%;
+        width: 100%;
+        vertical-align: bottom;
+        display: table-cell;
+        /*border-style: dotted;*/
+        /*border-color: black;*/
+    }
+
+    .Page_2 img {
+        position: relative;
+        /*bottom: 0;*/
+        margin-left: 7%;
+        margin-top: 3%;
+        float: left;
+        height: 40%;
+    }
+
+    .Page_3 {
+        position: absolute;
+        /*border-style: dotted;*/
+        vertical-align: bottom;
+        /*border-color: #66CCFF;*/
+        width: 100%;
+    }
+
+    .Page_3 h2 {
+        text-align: center;
+        padding: 50px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 50.5px;
+        letter-spacing: 4px;
+    }
+
     .processImg img {
-      position: relative;
-      /*border-style: dotted;*/
-      /*vertical-align: bottom;*/
-      /*border-color: #66CCFF;*/
-      height: 15%;
-      padding-left: 13%;
-      float: left;
+        position: relative;
+        /*border-style: dotted;*/
+        /*vertical-align: bottom;*/
+        /*border-color: #66CCFF;*/
+        height: 15%;
+        padding-left: 13%;
+        float: left;
     }
-    .processImg{
-      border-style: dotted;
+
+    .processImg {
+        border-style: dotted;
     }
-    #One{
-      clear: left;
+
+    #One {
+        clear: left;
     }
-    .processImg h3{
-      float: left;
-      width: 40px;
-      height: 40px;
-      text-align: center;
-      line-height: 40px;
-      border-radius:99em;
-      background-color: #f4511c;
-      margin-left: 19%;
-      color: #f2f2f2;
-      margin-top: 50px;
-      /*padding-top: px;*/
+
+    .processImg h3 {
+        float: left;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 99em;
+        background-color: #f4511c;
+        margin-left: 19%;
+        color: #f2f2f2;
+        margin-top: 50px;
+        /*padding-top: px;*/
     }
-    .Process_content{
-      border-style: dotted;
-      /*vertical-align: bottom;*/
-      border-color: #66CCFF;
+
+    .Process_content {
+        border-style: dotted;
+        /*vertical-align: bottom;*/
+        border-color: #66CCFF;
     }
-    .Process_content_1{
-      position: relative;
-      float: left;
-      clear: left;
-      margin-left: 19%;
+
+    .Process_content_1 {
+        position: relative;
+        float: left;
+        clear: left;
+        margin-left: 7%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.24;
     }
-    .Process_content_2{
-      float: left;
-      margin-left: 19%;
+
+    .Process_content_2 {
+        float: left;
+        margin-left: 7%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.24;
+    }
+
+    .Process_content_3 {
+        float: left;
+        margin-left: 19%;
     }

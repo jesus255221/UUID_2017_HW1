@@ -169,3 +169,18 @@
       margin-top: 50px;
       /*padding-top: px;*/
     }
+    .Process_content{
+      border-style: dotted;
+      /*vertical-align: bottom;*/
+      border-color: #66CCFF;
+    }
+    .Process_content_1{
+      position: relative;
+      float: left;
+      clear: left;
+      margin-left: 19%;
+    }
+    .Process_content_2{
+      float: left;
+      margin-left: 19%;
+    }

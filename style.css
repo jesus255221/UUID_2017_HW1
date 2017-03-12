@@ -154,7 +154,7 @@
         text-align: center;
         padding: 50px;
         font-family: 'Quicksand', sans-serif;
-        font-size: 50.5px;
+        font-size: 60px;
         letter-spacing: 4px;
     }
 
@@ -166,10 +166,6 @@
         height: 15%;
         padding-left: 13%;
         float: left;
-    }
-
-    .processImg {
-        border-style: dotted;
     }
 
     #One {
@@ -191,9 +187,9 @@
     }
 
     .Process_content {
-        border-style: dotted;
+        /*border-style: dotted;*/
         /*vertical-align: bottom;*/
-        border-color: #66CCFF;
+        /*border-color: #66CCFF;*/
     }
 
     .Process_content_1 {
@@ -202,7 +198,7 @@
         clear: left;
         margin-left: 7%;
         font-family: 'Quicksand', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;
@@ -213,7 +209,7 @@
         float: left;
         margin-left: 7%;
         font-family: 'Quicksand', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;
@@ -224,7 +220,7 @@
         float: left;
         margin-left: 7%;
         font-family: 'Quicksand', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;
@@ -235,7 +231,7 @@
         float: left;
         margin-left: 7%;
         font-family: 'Quicksand', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;

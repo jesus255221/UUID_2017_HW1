@@ -71,16 +71,16 @@
         </div>
     </div>
     <!-- <img src="ngpTSOd.jpg" id="123" width="100%"> -->
+    <script>
+        $(document).ready(function() {
+            var BoxHeight = $("#old_man").height();
+            $("div.box").height(BoxHeight);
+            $("div.Page_3").height(BoxHeight);
+            $("h1").css("background-color", "#231f20");
+            BoxHeight = $("div.Page_2").height();
+            $("div.Page_3").css('margin-top', BoxHeight + 'px');
+        });
+    </script>
 </body>
-<script>
-    $(document).ready(function() {
-        var BoxHeight = $("#old_man").height();
-        $("div.box").height(BoxHeight);
-        $("div.Page_3").height(BoxHeight);
-        $("h1").css("background-color", "#231f20");
-        BoxHeight = $("div.Page_2").height();
-        $("div.Page_3").css('margin-top', BoxHeight + 'px');
-    });
-</script>
 
 </html>

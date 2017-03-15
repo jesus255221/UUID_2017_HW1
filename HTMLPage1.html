@@ -60,7 +60,7 @@
                 <br> in your city.
             </div>
             <div class="Process_content_2">
-                Bind your <br> payment <br> imethod.
+                Bind your <br> payment <br> method.
             </div>
             <div class="Process_content_3">
                 Pay with your <br>digital wallet.
@@ -70,13 +70,20 @@
             </div>
         </div>
     </div>
+    <div class="Page_4">
+        <img src="map.PNG" id="map">
+        <h2>
+        Find your city.
+      </h2>
+    </div>
     <!-- <img src="ngpTSOd.jpg" id="123" width="100%"> -->
 </body>
 <script>
     $(document).ready(function() {
         var BoxHeight = $("#old_man").height();
         $("div.box").height(BoxHeight);
-        $("div.Page_3").height(BoxHeight);
+        $("div.Page_3").height(BoxHeight - 150);
+        $("div.Page_4").height(BoxHeight - 150);
         $("h1").css("background-color", "#231f20");
         BoxHeight = $("div.Page_2").height();
         $("div.Page_3").css('margin-top', BoxHeight + 'px');

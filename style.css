@@ -143,7 +143,7 @@
     }
 
     .Page_3 {
-        position: absolute;
+        position: relative;
         /*border-style: dotted;*/
         vertical-align: bottom;
         /*border-color: #66CCFF;*/
@@ -156,6 +156,7 @@
         font-family: 'Quicksand', sans-serif;
         font-size: 60px;
         letter-spacing: 4px;
+        margin-top: 13%;
     }
 
     .processImg img {
@@ -180,7 +181,7 @@
         line-height: 40px;
         border-radius: 99em;
         background-color: #f4511c;
-        margin-left: 19%;
+        margin-left: 17.5%;
         color: #f2f2f2;
         margin-top: 50px;
         /*padding-top: px;*/
@@ -196,7 +197,7 @@
         position: relative;
         float: left;
         clear: left;
-        margin-left: 7%;
+        margin-left: 14%;
         font-family: 'Quicksand', sans-serif;
         font-size: 30px;
         font-weight: bold;
@@ -207,7 +208,8 @@
 
     .Process_content_2 {
         float: left;
-        margin-left: 7%;
+        margin-right: 5%;
+        margin-left: 9%;
         font-family: 'Quicksand', sans-serif;
         font-size: 30px;
         font-weight: bold;
@@ -218,7 +220,8 @@
 
     .Process_content_3 {
         float: left;
-        margin-left: 7%;
+        margin-right: 7%;
+        margin-left: 3%;
         font-family: 'Quicksand', sans-serif;
         font-size: 30px;
         font-weight: bold;
@@ -229,11 +232,33 @@
 
     .Process_content_4 {
         float: left;
-        margin-left: 7%;
+        margin-left: 3%;
         font-family: 'Quicksand', sans-serif;
         font-size: 30px;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;
         line-height: 1.24;
+    }
+
+    .Page_4 {
+        z-index: 1;
+        position: relative;
+    }
+
+    .Page_4 h2 {
+        position: absolute;
+        text-align: center;
+        padding: 5%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 60px;
+        letter-spacing: 4px;
+        margin-top: 13%;
+        margin: 0;
+    }
+
+    #map {
+        position: absolute;
+        margin-top: 0;
+        width: 100%;
     }

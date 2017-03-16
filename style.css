@@ -283,17 +283,10 @@ div.icons {
     position: absolute;
     z-index: 1;
     background-color: white;
-<<<<<<< HEAD
-    width: 30%;
-    border-radius: 3vw;
-    margin-left: 5vw;
-=======
-    /* padding-left: 5vw; */
     height: 60px;
     width: 30%;
     border-radius: 3vw;
     margin-left: 10vw;
->>>>>>> 7764664d1a52db4d042212f92fbd95c5256bb03c
 }
 
 #input {
@@ -303,15 +296,8 @@ div.icons {
     font-size: 25px;
     padding-top: 0;
     font-family: 'Quicksand', sans-serif;
-<<<<<<< HEAD
-    padding-left: 10px;
-    padding-top: 0;
-    width: 19vw;
-    ;
-=======
     width: 21vw;
     font-weight: bold;
->>>>>>> 7764664d1a52db4d042212f92fbd95c5256bb03c
 }
 
 #search_icon {

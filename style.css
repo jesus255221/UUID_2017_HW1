@@ -274,51 +274,40 @@ div.icons {
     z-index: 1;
 }
 
-
-/*.Page_4 input {
-    clear: left;
-    position: absolute;
-    margin-top: 30vw;
-    margin-left: 12vw;
-    z-index: 1;
-    width: 20vw;
-    height: 55px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 50px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('ic_search_black_24dp.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    font-family: 'Quicksand', sans-serif;
-}*/
-
 .input {
     margin-top: 15vw;
     position: absolute;
     z-index: 1;
     background-color: white;
-    /*padding-left: 5vw;*/
-    height: 4vw;
     width: 30%;
     border-radius: 3vw;
+    margin-left: 5vw;
 }
 
 #input {
+    text-align: left;
     border: none;
     outline: none;
     font-size: 25px;
     padding-top: 0;
     font-family: 'Quicksand', sans-serif;
+    padding-left: 10px;
+    padding-top: 0;
+    width: 19vw;
+    ;
 }
 
 #search_icon {
-    text-align: center;
     font-size: 30px;
-    padding-top: 12px;
     padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#microphone_icon {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 19px;
+    padding-left: 60px;
 }
 
 ::-webkit-input-placeholder {

@@ -253,18 +253,21 @@ div.icons {
     float: left;
     position: absolute;
     text-align: center;
-    padding: 5%;
+    padding: 10%;
     font-family: 'Quicksand', sans-serif;
     font-size: 60px;
     letter-spacing: 4px;
     margin-top: 13%;
     margin: 0;
     z-index: 1;
+    font-weight: bold;
 }
 
 .Page_4 h3 {
-    padding-top: 11%;
-    padding-left: 5vw;
+    padding-top: 17%;
+    padding-left: 10%;
+    /*padding-top: 11%;*/
+    /*padding-left: 5vw;*/
     position: absolute;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
@@ -272,16 +275,25 @@ div.icons {
     margin-top: 13%;
     margin: 0;
     z-index: 1;
+    font-weight: bold;
 }
 
 .input {
-    margin-top: 15vw;
+    margin-top: 27vw;
     position: absolute;
     z-index: 1;
     background-color: white;
+<<<<<<< HEAD
     width: 30%;
     border-radius: 3vw;
     margin-left: 5vw;
+=======
+    /* padding-left: 5vw; */
+    height: 60px;
+    width: 30%;
+    border-radius: 3vw;
+    margin-left: 10vw;
+>>>>>>> 7764664d1a52db4d042212f92fbd95c5256bb03c
 }
 
 #input {
@@ -291,10 +303,15 @@ div.icons {
     font-size: 25px;
     padding-top: 0;
     font-family: 'Quicksand', sans-serif;
+<<<<<<< HEAD
     padding-left: 10px;
     padding-top: 0;
     width: 19vw;
     ;
+=======
+    width: 21vw;
+    font-weight: bold;
+>>>>>>> 7764664d1a52db4d042212f92fbd95c5256bb03c
 }
 
 #search_icon {
@@ -308,6 +325,12 @@ div.icons {
     text-align: center;
     padding-top: 19px;
     padding-left: 60px;
+}
+
+#microphone_icon {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
 }
 
 ::-webkit-input-placeholder {
@@ -328,6 +351,22 @@ div.icons {
 :-moz-placeholder {
     /* Firefox 18- */
     color: black;
+}
+
+.Page_4 button {
+    position: absolute;
+    z-index: 1;
+    margin-top: 35vw;
+    margin-left: 10vw;
+    width: 15%;
+    border: none;
+    outline: none;
+    height: 4vw;
+    border-radius: 5vw;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f4511c;
 }
 
 #map {

@@ -22,15 +22,17 @@
             <h2 id="Login">Login</h2>
         </div>
         <div class="box">
-            <div class="box_contenyt">
+            <div class="box_content">
                 <h1 id="intro">Tip for your<br>
                     favorite<br>
                     <u>Street Artist<br></u>
                     with<br>
                     <u>Paypal.<br></u>
                 </h1>
-                <div id="search">
-                    <img src="textbox.png">
+                <div class="input_top">
+                    <i class="fa fa-search" id="search_icon_top"></i>
+                    <input id="input_top" type="text" name="search" placeholder="Type your city">
+                    <i class="fa fa-microphone" id="microphone_icon_top"></i>
                 </div>
             </div>
         </div>
@@ -46,29 +48,23 @@
         <h2>
         How it works
       </h2>
-        <div class="processImg">
-            <img src="find.png">
-            <img src="card.png">
-            <img src="wallet.png">
-            <img src="security.png" id="Phone">
-            <h3 id="One">1</h3>
-            <h3>2</h3>
-            <h3>3</h3>
-            <h3>4</h3>
-        </div>
         <div class="Process_content">
             <div class="Process_content_1">
-                Find your favorite<br> talent/service
+                <img src="find.png">
+                <h3 id="ONE">1</h3> Find your favorite<br> talent/service
                 <br> in your city.
             </div>
             <div class="Process_content_2">
-                Bind your <br> payment <br> method.
+                <img src="card.png">
+                <h3 id="TWO">2</h3> Bind your <br> payment <br> method.
             </div>
             <div class="Process_content_3">
-                Pay with your <br>digital wallet.
+                <img src="wallet.png">
+                <h3 id="THREE">3</h3> Pay with your <br>digital wallet.
             </div>
             <div class="Process_content_4">
-                Check on your <br>mobile <br>and share ❤️
+                <img src="security.png" id="Phone">
+                <h3 id="FOUR">4</h3> Check on your <br>mobile <br>and share ❤️
             </div>
         </div>
     </div>
@@ -102,17 +98,59 @@
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoXIHLDeOXJQbgK4CN1FcZ8ZBd7l_YZTE&callback=initMap" async defer></script>
     </div>
-    <!-- <img src="ngpTSOd.jpg" id="123" width="100%"> -->
+    <div class="Page_5">
+        <div class="Vote">
+            <!-- <img src="slider_2.jpg"> -->
+            <div class="Page_5_content">
+                <h2>
+                  Vote for our next city!
+                </h2>
+                <h3>
+                  We want to focus on cities<br>
+                  where there is demand,<br>
+                  and we can make a difference.
+                </h3>
+                <select>
+                  <option value="" disabled selected>Choose your city</option>
+                  <option value="Taipei">Taipei</option>
+                  <option value="London">London</option>
+                  <option value="Tokyo">Tokyo</option>
+                  <option value="Hualien">Hualien</option>
+                </select>
+                <input id="email" type="text" name="email" placeholder="Your email.">
+                <button type="button" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="Page_6">
+        <div class="bottom_tipbox">
+            <img src="logo.png">
+        </div>
+        <div class="bottom_content">
+            <h2>Tip your favorite talent/service!</h2>
+            <h3>Company  |  News  |  Vote  |  Contact</h3>
+        </div>
+        <div class="bottom_icons" style="margin-left:25vw;">
+            <img src="android.png" id="andriod_icon">
+            <img src="apple.png" id="ios_icon">
+        </div>
+        <div class="copy_rights">
+            © 2017 Tipbox™
+        </div>
+    </div>
 </body>
 <script>
     $(document).ready(function() {
         var BoxHeight = $("#old_man").height();
         $("div.box").height(BoxHeight);
-        $("div.Page_3").height(BoxHeight - 150);
+        $("div.Page_3").height(BoxHeight - 170);
         $("div.Page_4").height(BoxHeight - 150);
+        $("div.Page_5").height(BoxHeight - 150);
+        $("div.Page_6").height(BoxHeight - 150);
+        // $("div.Page_5_content").height($("div.Page_5").height());
         $("h1").css("background-color", "#231f20");
-        BoxHeight = $("div.Page_2").height();
-        $("div.Page_3").css('margin-top', BoxHeight + 'px');
+        $("#andriod_icon").height($("#ios_icon").height() + 5);
+
     });
 </script>
 

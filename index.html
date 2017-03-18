@@ -44,7 +44,6 @@
         <img src="wired.png">
     </div>
     <div class="Page_3">
-        <!-- <img src="ngpTSOd.jpg"> -->
         <h2>
         How it works
       </h2>
@@ -67,9 +66,11 @@
                 <h3 id="FOUR">4</h3> Check on your <br>mobile <br>and share ❤️
             </div>
         </div>
+        <button type="button" id="Scroll">
+          <img src="choose_2.png">
+        </button>
     </div>
     <div class="Page_4">
-        <!-- <img src="map.PNG" id="map"> -->
         <h2>
         Find your city.
       </h2>
@@ -100,7 +101,6 @@
     </div>
     <div class="Page_5">
         <div class="Vote">
-            <!-- <img src="slider_2.jpg"> -->
             <div class="Page_5_content">
                 <h2>
                   Vote for our next city!
@@ -147,9 +147,14 @@
         $("div.Page_4").height(BoxHeight - 150);
         $("div.Page_5").height(BoxHeight - 150);
         $("div.Page_6").height(BoxHeight - 150);
-        // $("div.Page_5_content").height($("div.Page_5").height());
+        // $("#Scroll").css("margin-top", BoxHeight - 170);
         $("h1").css("background-color", "#231f20");
         $("#andriod_icon").height($("#ios_icon").height() + 5);
+        $("#Scroll").click(function() {
+            $('html, body').animate({
+                scrollTop: $(".Page_4").offset().top
+            }, 1000);
+        });
 
     });
 </script>

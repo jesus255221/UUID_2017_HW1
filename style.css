@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: #e6e5e0;
     margin: 0;
     min-width: 960px;
 }
@@ -177,9 +177,7 @@ div.icons {
 
 .Page_3 {
     position: relative;
-    /*border-style: dotted;*/
     vertical-align: bottom;
-    /*border-color: #66CCFF;*/
     width: 100%;
 }
 
@@ -209,13 +207,6 @@ div.icons {
     border-radius: 99em;
     background-color: #f4511c;
     color: #f2f2f2;
-    /*padding-top: px;*/
-}
-
-.Process_content {
-    /*border-style: dotted;*/
-    /*vertical-align: bottom;*/
-    /*border-color: #66CCFF;*/
 }
 
 .Process_content_1 {
@@ -272,8 +263,21 @@ div.icons {
     text-align: center;
 }
 
+#Scroll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    z-index: 0;
+    background-color: #e6e5e0;
+    margin-top: 30vw;
+    width: 100px;
+    height: 100px;
+    border-radius: 99em;
+}
+
 .Page_4 {
-    z-index: 1;
     position: relative;
 }
 
@@ -294,8 +298,6 @@ div.icons {
 .Page_4 h3 {
     padding-top: 17%;
     padding-left: 10%;
-    /*padding-top: 11%;*/
-    /*padding-left: 5vw;*/
     position: absolute;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
